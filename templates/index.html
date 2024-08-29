@@ -17,8 +17,10 @@
             <div class="upload-section">
                 <form id="uploadForm" enctype="multipart/form-data" action="/convert" method="post">
                     <div class="file-upload">
+                        <label for="fileInput" class="file-upload-label">Choose File</label>
                         <input type="file" id="fileInput" name="file" accept="*/*" required>
                     </div>
+                    
                     <div class="file-options">
                         <select id="convertTo" name="convertTo" required>
                             <option value="jpeg">Convert to JPEG</option>

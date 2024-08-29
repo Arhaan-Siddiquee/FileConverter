@@ -72,3 +72,32 @@ header {
 #result {
     margin-top: 20px;
 }
+/* Hide default file input */
+.file-upload input[type="file"] {
+    display: none;
+}
+
+/* Custom file upload button */
+.file-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.file-upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #1d72b8;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.file-upload-label:hover {
+    background-color: #155a8a;
+}
